@@ -14,12 +14,12 @@
 <h3 align="center">Memoir API</h3>
 
   <p align="center">
-    Application Programming Interface (API) for Memoir using Strapi.
+    Application Programming Interface (API) for <a href="https://memoir.danang.id">Memoir</a> using Strapi.
     <br />
-    <a href="https://memoir.apps.danang.id">Visit</a>
+    <a href="https://memoir.apps.danang.id">Visit</a>&nbsp;
+	<a href="https://github.com/danang-id/memoir">Memoir Source Code</a>
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -39,21 +39,19 @@
 </details>
 
 
-
-<!-- ABOUT memoir-api -->
 ## About Memoir API
 
-The **memoir-api** is the Application Programming Interface (API) for Memoir that built using
-Strapi. You can read the [official Strapi documentation](https://docs.strapi.io).
+The **memoir-api** is the Application Programming Interface (API) for [Memoir](https://github.com/danang-id/memoir), 
+built using Strapi. You can read the [official Strapi documentation](https://docs.strapi.io).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ### Built With
 
 Powered by [Strapi](https://strapi.io), written using [TypeScript](https://typescriptlang.org/).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## Usage
 
@@ -65,7 +63,7 @@ Strapi comes with a full-featured [Command Line Interface](https://docs.strapi.i
 Start your Strapi application with autoReload enabled. 
 [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
-```
+```bash
 npm run develop
 ```
 
@@ -74,7 +72,7 @@ npm run develop
 Start your Strapi application with autoReload disabled. 
 [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
 
-```
+```bash
 npm run start
 ```
 
@@ -83,11 +81,12 @@ npm run start
 Build your admin panel. 
 [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
 
-```
+```bash
 npm run build
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## License
 
