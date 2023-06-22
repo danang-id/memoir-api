@@ -1,0 +1,26 @@
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "memoir-api"
+primary_region = "sin"
+
+[build]
+	dockerfile = "Dockerfile.prod"
+
+[env]
+	HOST = "0.0.0.0"
+	PORT = 1337
+	DATABASE_CLIENT = "sqlite"
+	DATABASE_FILENAME = "/mnt/data/memoir_production.sqlite3"
+
+[http_service]
+	internal_port = 1337
+	force_https = true
+	auto_stop_machines = false
+	auto_start_machines = true
+	min_machines_running = 1
+
+[mounts]
+	source="memoir_api_data"
+	destination="/mnt/data"
